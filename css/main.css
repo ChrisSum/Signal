@@ -663,6 +663,9 @@ div.extra {
 	z-index: 1;
 }
 
+
+
+
 /*Media Queries*/
 /* start max-width 1075px*/
 @media screen and (max-width: 1075px) {
@@ -722,6 +725,7 @@ div.extra {
 	.offerings .column, .offerings .column-end {
 		width: 260px;
 		margin-left: 0;
+		margin-right: 0;
 	}
 } 
 	/* end max-width 700px*/
@@ -839,4 +843,9 @@ div.extra {
 	}
 } 
 
-/* end max-width 600px*/
+/* Phone Screens */
+@media (max-width: 330px) {
+	body {
+		font-size: xx-large;
+	}
+}
